@@ -9,8 +9,9 @@ import io.netty.handler.codec.http.HttpRequestDecoder;
 import io.netty.handler.codec.http.HttpResponseEncoder;
 
 public class Server {
-    public static void main(String[] args) {
-
+    public static void main(String[] args) throws Exception {
+        Server server = new Server();
+        server.start();
     }
 
     public void start() throws Exception {
